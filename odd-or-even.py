@@ -18,3 +18,5 @@ for integer in read_numbers:
     else:
         add_odd.write(integer)
 read_numbers.close()
+add_even.close()
+add_odd.close()
