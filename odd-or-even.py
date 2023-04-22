@@ -9,6 +9,11 @@ read_numbers = open('numbers.txt')
 add_even = open('even.txt', 'a')
 add_odd = open('odd.txt', 'a')
 # for loop
+for integer in read_numbers:
 # if integer is even
+    if integer % 2 == 0:
 # then append to even.txt
+        add_even.write(integer)
 # else append to odd.txt
+    else:
+        add_odd.write(integer)
