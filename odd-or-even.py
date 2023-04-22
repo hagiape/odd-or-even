@@ -2,3 +2,9 @@
 # The program will create two other text file; the first text file will be named even.txt 
 # that will contains all even numbers extracted from the numbers.txt. The second text file 
 # will be named odd.txt that will contains all odd numbers extracted from the numbers.txt.
+
+# variable for reading file
+# create new file for odd and even integers
+# if integer is even
+# then append to even.txt
+# else append to odd.txt
